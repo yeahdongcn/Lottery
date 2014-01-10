@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D097DE3C187F94B7005E63BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3B187F94B7005E63BE /* Foundation.framework */; };
+		D097DE3E187F94B7005E63BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3D187F94B7005E63BE /* CoreGraphics.framework */; };
+		D097DE40187F94B7005E63BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3F187F94B7005E63BE /* UIKit.framework */; };
+		D097DE46187F94B7005E63BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D097DE44187F94B7005E63BE /* InfoPlist.strings */; };
+		D097DE48187F94B7005E63BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D097DE47187F94B7005E63BE /* main.m */; };
+		D097DE4C187F94B7005E63BE /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D097DE4B187F94B7005E63BE /* RSAppDelegate.m */; };
+		D097DE4F187F94B7005E63BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D097DE4D187F94B7005E63BE /* Main.storyboard */; };
+		D097DE52187F94B7005E63BE /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D097DE51187F94B7005E63BE /* RSViewController.m */; };
+		D097DE54187F94B7005E63BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D097DE53187F94B7005E63BE /* Images.xcassets */; };
+		D097DE5B187F94B7005E63BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE5A187F94B7005E63BE /* XCTest.framework */; };
+		D097DE5C187F94B7005E63BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3B187F94B7005E63BE /* Foundation.framework */; };
+		D097DE5D187F94B7005E63BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3F187F94B7005E63BE /* UIKit.framework */; };
+		D097DE65187F94B7005E63BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D097DE63187F94B7005E63BE /* InfoPlist.strings */; };
+		D097DE67187F94B7005E63BE /* RSLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097DE66187F94B7005E63BE /* RSLotteryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D097DE5E187F94B7005E63BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D097DE30187F94B7005E63BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D097DE37187F94B7005E63BE;
+			remoteInfo = RSLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D097DE38187F94B7005E63BE /* RSLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D097DE3B187F94B7005E63BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D097DE3D187F94B7005E63BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D097DE3F187F94B7005E63BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D097DE43187F94B7005E63BE /* RSLottery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSLottery-Info.plist"; sourceTree = "<group>"; };
+		D097DE45187F94B7005E63BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D097DE47187F94B7005E63BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D097DE49187F94B7005E63BE /* RSLottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSLottery-Prefix.pch"; sourceTree = "<group>"; };
+		D097DE4A187F94B7005E63BE /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		D097DE4B187F94B7005E63BE /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		D097DE4E187F94B7005E63BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D097DE50187F94B7005E63BE /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		D097DE51187F94B7005E63BE /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		D097DE53187F94B7005E63BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D097DE59187F94B7005E63BE /* RSLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D097DE5A187F94B7005E63BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D097DE62187F94B7005E63BE /* RSLotteryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSLotteryTests-Info.plist"; sourceTree = "<group>"; };
+		D097DE64187F94B7005E63BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D097DE66187F94B7005E63BE /* RSLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLotteryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D097DE35187F94B7005E63BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE3E187F94B7005E63BE /* CoreGraphics.framework in Frameworks */,
+				D097DE40187F94B7005E63BE /* UIKit.framework in Frameworks */,
+				D097DE3C187F94B7005E63BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D097DE56187F94B7005E63BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE5B187F94B7005E63BE /* XCTest.framework in Frameworks */,
+				D097DE5D187F94B7005E63BE /* UIKit.framework in Frameworks */,
+				D097DE5C187F94B7005E63BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D097DE2F187F94B7005E63BE = {
+			isa = PBXGroup;
+			children = (
+				D097DE41187F94B7005E63BE /* RSLottery */,
+				D097DE60187F94B7005E63BE /* RSLotteryTests */,
+				D097DE3A187F94B7005E63BE /* Frameworks */,
+				D097DE39187F94B7005E63BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D097DE39187F94B7005E63BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE38187F94B7005E63BE /* RSLottery.app */,
+				D097DE59187F94B7005E63BE /* RSLotteryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D097DE3A187F94B7005E63BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE3B187F94B7005E63BE /* Foundation.framework */,
+				D097DE3D187F94B7005E63BE /* CoreGraphics.framework */,
+				D097DE3F187F94B7005E63BE /* UIKit.framework */,
+				D097DE5A187F94B7005E63BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D097DE41187F94B7005E63BE /* RSLottery */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE4A187F94B7005E63BE /* RSAppDelegate.h */,
+				D097DE4B187F94B7005E63BE /* RSAppDelegate.m */,
+				D097DE4D187F94B7005E63BE /* Main.storyboard */,
+				D097DE50187F94B7005E63BE /* RSViewController.h */,
+				D097DE51187F94B7005E63BE /* RSViewController.m */,
+				D097DE53187F94B7005E63BE /* Images.xcassets */,
+				D097DE42187F94B7005E63BE /* Supporting Files */,
+			);
+			path = RSLottery;
+			sourceTree = "<group>";
+		};
+		D097DE42187F94B7005E63BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE43187F94B7005E63BE /* RSLottery-Info.plist */,
+				D097DE44187F94B7005E63BE /* InfoPlist.strings */,
+				D097DE47187F94B7005E63BE /* main.m */,
+				D097DE49187F94B7005E63BE /* RSLottery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D097DE60187F94B7005E63BE /* RSLotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE66187F94B7005E63BE /* RSLotteryTests.m */,
+				D097DE61187F94B7005E63BE /* Supporting Files */,
+			);
+			path = RSLotteryTests;
+			sourceTree = "<group>";
+		};
+		D097DE61187F94B7005E63BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D097DE62187F94B7005E63BE /* RSLotteryTests-Info.plist */,
+				D097DE63187F94B7005E63BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D097DE37187F94B7005E63BE /* RSLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D097DE6A187F94B7005E63BE /* Build configuration list for PBXNativeTarget "RSLottery" */;
+			buildPhases = (
+				D097DE34187F94B7005E63BE /* Sources */,
+				D097DE35187F94B7005E63BE /* Frameworks */,
+				D097DE36187F94B7005E63BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSLottery;
+			productName = RSLottery;
+			productReference = D097DE38187F94B7005E63BE /* RSLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D097DE58187F94B7005E63BE /* RSLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D097DE6D187F94B7005E63BE /* Build configuration list for PBXNativeTarget "RSLotteryTests" */;
+			buildPhases = (
+				D097DE55187F94B7005E63BE /* Sources */,
+				D097DE56187F94B7005E63BE /* Frameworks */,
+				D097DE57187F94B7005E63BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D097DE5F187F94B7005E63BE /* PBXTargetDependency */,
+			);
+			name = RSLotteryTests;
+			productName = RSLotteryTests;
+			productReference = D097DE59187F94B7005E63BE /* RSLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D097DE30187F94B7005E63BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = P.D.Q.;
+				TargetAttributes = {
+					D097DE58187F94B7005E63BE = {
+						TestTargetID = D097DE37187F94B7005E63BE;
+					};
+				};
+			};
+			buildConfigurationList = D097DE33187F94B7005E63BE /* Build configuration list for PBXProject "RSLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D097DE2F187F94B7005E63BE;
+			productRefGroup = D097DE39187F94B7005E63BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D097DE37187F94B7005E63BE /* RSLottery */,
+				D097DE58187F94B7005E63BE /* RSLotteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D097DE36187F94B7005E63BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE54187F94B7005E63BE /* Images.xcassets in Resources */,
+				D097DE46187F94B7005E63BE /* InfoPlist.strings in Resources */,
+				D097DE4F187F94B7005E63BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D097DE57187F94B7005E63BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE65187F94B7005E63BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D097DE34187F94B7005E63BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE48187F94B7005E63BE /* main.m in Sources */,
+				D097DE4C187F94B7005E63BE /* RSAppDelegate.m in Sources */,
+				D097DE52187F94B7005E63BE /* RSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D097DE55187F94B7005E63BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097DE67187F94B7005E63BE /* RSLotteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D097DE5F187F94B7005E63BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D097DE37187F94B7005E63BE /* RSLottery */;
+			targetProxy = D097DE5E187F94B7005E63BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D097DE44187F94B7005E63BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D097DE45187F94B7005E63BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D097DE4D187F94B7005E63BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D097DE4E187F94B7005E63BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D097DE63187F94B7005E63BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D097DE64187F94B7005E63BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D097DE68187F94B7005E63BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D097DE69187F94B7005E63BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D097DE6B187F94B7005E63BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
+				INFOPLIST_FILE = "RSLottery/RSLottery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D097DE6C187F94B7005E63BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
+				INFOPLIST_FILE = "RSLottery/RSLottery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D097DE6E187F94B7005E63BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSLottery.app/RSLottery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSLotteryTests/RSLotteryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D097DE6F187F94B7005E63BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSLottery.app/RSLottery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
+				INFOPLIST_FILE = "RSLotteryTests/RSLotteryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D097DE33187F94B7005E63BE /* Build configuration list for PBXProject "RSLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D097DE68187F94B7005E63BE /* Debug */,
+				D097DE69187F94B7005E63BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D097DE6A187F94B7005E63BE /* Build configuration list for PBXNativeTarget "RSLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D097DE6B187F94B7005E63BE /* Debug */,
+				D097DE6C187F94B7005E63BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D097DE6D187F94B7005E63BE /* Build configuration list for PBXNativeTarget "RSLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D097DE6E187F94B7005E63BE /* Debug */,
+				D097DE6F187F94B7005E63BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D097DE30187F94B7005E63BE /* Project object */;
+}
