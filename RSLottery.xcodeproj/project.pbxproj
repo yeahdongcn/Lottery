@@ -21,6 +21,32 @@
 		D097DE5D187F94B7005E63BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D097DE3F187F94B7005E63BE /* UIKit.framework */; };
 		D097DE65187F94B7005E63BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D097DE63187F94B7005E63BE /* InfoPlist.strings */; };
 		D097DE67187F94B7005E63BE /* RSLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097DE66187F94B7005E63BE /* RSLotteryTests.m */; };
+		D0CB2DBC18815C0400D5D978 /* RSView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB2DBB18815C0400D5D978 /* RSView.m */; };
+		D0CB2DD71881822500D5D978 /* APPLE iPhone 5s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DBE1881822500D5D978 /* APPLE iPhone 5s.jpg */; };
+		D0CB2DD81881822500D5D978 /* BALLY 巴利 男式棕色牛皮斜挎包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DBF1881822500D5D978 /* BALLY 巴利 男式棕色牛皮斜挎包.jpg */; };
+		D0CB2DD91881822500D5D978 /* BURBERRY 巴宝莉女表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC01881822500D5D978 /* BURBERRY 巴宝莉女表.jpg */; };
+		D0CB2DDA1881822500D5D978 /* COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC11881822500D5D978 /* COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg */; };
+		D0CB2DDB1881822500D5D978 /* COACH（蔻驰） 女士手提肩背包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC21881822500D5D978 /* COACH（蔻驰） 女士手提肩背包.jpg */; };
+		D0CB2DDC1881822500D5D978 /* ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC31881822500D5D978 /* ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg */; };
+		D0CB2DDD1881822500D5D978 /* ipad mini2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC41881822500D5D978 /* ipad mini2.jpg */; };
+		D0CB2DDE1881822500D5D978 /* JBL iPhone5 音乐底座.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC51881822500D5D978 /* JBL iPhone5 音乐底座.jpg */; };
+		D0CB2DDF1881822500D5D978 /* LG空气净化器.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC61881822500D5D978 /* LG空气净化器.jpg */; };
+		D0CB2DE01881822500D5D978 /* TCL42英寸 超窄边智能液晶电视.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC71881822500D5D978 /* TCL42英寸 超窄边智能液晶电视.jpg */; };
+		D0CB2DE11881822500D5D978 /* WEEKENDER度假系列拉杆箱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC81881822500D5D978 /* WEEKENDER度假系列拉杆箱.jpg */; };
+		D0CB2DE21881822500D5D978 /* 三星 Galaxy Note 3 N9006 3G手机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DC91881822500D5D978 /* 三星 Galaxy Note 3 N9006 3G手机.jpg */; };
+		D0CB2DE31881822500D5D978 /* 兰蔻 抗皱紧肤套装.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCA1881822500D5D978 /* 兰蔻 抗皱紧肤套装.jpg */; };
+		D0CB2DE41881822500D5D978 /* 奖品清单.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCB1881822500D5D978 /* 奖品清单.xlsx */; };
+		D0CB2DE51881822500D5D978 /* 海鸥SeaGull自动机械情侣对表女款.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCC1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表女款.jpg */; };
+		D0CB2DE61881822500D5D978 /* 海鸥SeaGull自动机械情侣对表男款.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCD1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表男款.jpg */; };
+		D0CB2DE71881822500D5D978 /* 联想20英寸一体电脑.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCE1881822500D5D978 /* 联想20英寸一体电脑.jpg */; };
+		D0CB2DE81881822500D5D978 /* 艾美特（airmate）欧式快热电暖炉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DCF1881822500D5D978 /* 艾美特（airmate）欧式快热电暖炉.jpg */; };
+		D0CB2DE91881822500D5D978 /* 阿玛尼 ARMANI男表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD01881822500D5D978 /* 阿玛尼 ARMANI男表.jpg */; };
+		D0CB2DEA1881822500D5D978 /* 雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD11881822500D5D978 /* 雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg */; };
+		D0CB2DEB1881822500D5D978 /* 雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD21881822500D5D978 /* 雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg */; };
+		D0CB2DEC1881822500D5D978 /* 飞利浦5L电脑型多功能电压力煲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD31881822500D5D978 /* 飞利浦5L电脑型多功能电压力煲.jpg */; };
+		D0CB2DED1881822500D5D978 /* 飞利浦台式微型音响.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD41881822500D5D978 /* 飞利浦台式微型音响.jpg */; };
+		D0CB2DEE1881822500D5D978 /* 飞利浦多功能电饭煲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD51881822500D5D978 /* 飞利浦多功能电饭煲.jpg */; };
+		D0CB2DEF1881822500D5D978 /* 飞利浦迷你组合音响.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CB2DD61881822500D5D978 /* 飞利浦迷你组合音响.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +79,33 @@
 		D097DE62187F94B7005E63BE /* RSLotteryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSLotteryTests-Info.plist"; sourceTree = "<group>"; };
 		D097DE64187F94B7005E63BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D097DE66187F94B7005E63BE /* RSLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLotteryTests.m; sourceTree = "<group>"; };
+		D0CB2DBA18815C0400D5D978 /* RSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSView.h; sourceTree = "<group>"; };
+		D0CB2DBB18815C0400D5D978 /* RSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSView.m; sourceTree = "<group>"; };
+		D0CB2DBE1881822500D5D978 /* APPLE iPhone 5s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "APPLE iPhone 5s.jpg"; sourceTree = "<group>"; };
+		D0CB2DBF1881822500D5D978 /* BALLY 巴利 男式棕色牛皮斜挎包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BALLY 巴利 男式棕色牛皮斜挎包.jpg"; sourceTree = "<group>"; };
+		D0CB2DC01881822500D5D978 /* BURBERRY 巴宝莉女表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BURBERRY 巴宝莉女表.jpg"; sourceTree = "<group>"; };
+		D0CB2DC11881822500D5D978 /* COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg"; sourceTree = "<group>"; };
+		D0CB2DC21881822500D5D978 /* COACH（蔻驰） 女士手提肩背包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COACH（蔻驰） 女士手提肩背包.jpg"; sourceTree = "<group>"; };
+		D0CB2DC31881822500D5D978 /* ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg"; sourceTree = "<group>"; };
+		D0CB2DC41881822500D5D978 /* ipad mini2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad mini2.jpg"; sourceTree = "<group>"; };
+		D0CB2DC51881822500D5D978 /* JBL iPhone5 音乐底座.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JBL iPhone5 音乐底座.jpg"; sourceTree = "<group>"; };
+		D0CB2DC61881822500D5D978 /* LG空气净化器.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LG空气净化器.jpg"; sourceTree = "<group>"; };
+		D0CB2DC71881822500D5D978 /* TCL42英寸 超窄边智能液晶电视.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCL42英寸 超窄边智能液晶电视.jpg"; sourceTree = "<group>"; };
+		D0CB2DC81881822500D5D978 /* WEEKENDER度假系列拉杆箱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WEEKENDER度假系列拉杆箱.jpg"; sourceTree = "<group>"; };
+		D0CB2DC91881822500D5D978 /* 三星 Galaxy Note 3 N9006 3G手机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "三星 Galaxy Note 3 N9006 3G手机.jpg"; sourceTree = "<group>"; };
+		D0CB2DCA1881822500D5D978 /* 兰蔻 抗皱紧肤套装.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兰蔻 抗皱紧肤套装.jpg"; sourceTree = "<group>"; };
+		D0CB2DCB1881822500D5D978 /* 奖品清单.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "奖品清单.xlsx"; sourceTree = "<group>"; };
+		D0CB2DCC1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表女款.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海鸥SeaGull自动机械情侣对表女款.jpg"; sourceTree = "<group>"; };
+		D0CB2DCD1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表男款.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海鸥SeaGull自动机械情侣对表男款.jpg"; sourceTree = "<group>"; };
+		D0CB2DCE1881822500D5D978 /* 联想20英寸一体电脑.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "联想20英寸一体电脑.jpg"; sourceTree = "<group>"; };
+		D0CB2DCF1881822500D5D978 /* 艾美特（airmate）欧式快热电暖炉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "艾美特（airmate）欧式快热电暖炉.jpg"; sourceTree = "<group>"; };
+		D0CB2DD01881822500D5D978 /* 阿玛尼 ARMANI男表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "阿玛尼 ARMANI男表.jpg"; sourceTree = "<group>"; };
+		D0CB2DD11881822500D5D978 /* 雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg"; sourceTree = "<group>"; };
+		D0CB2DD21881822500D5D978 /* 雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg"; sourceTree = "<group>"; };
+		D0CB2DD31881822500D5D978 /* 飞利浦5L电脑型多功能电压力煲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "飞利浦5L电脑型多功能电压力煲.jpg"; sourceTree = "<group>"; };
+		D0CB2DD41881822500D5D978 /* 飞利浦台式微型音响.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "飞利浦台式微型音响.jpg"; sourceTree = "<group>"; };
+		D0CB2DD51881822500D5D978 /* 飞利浦多功能电饭煲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "飞利浦多功能电饭煲.jpg"; sourceTree = "<group>"; };
+		D0CB2DD61881822500D5D978 /* 飞利浦迷你组合音响.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "飞利浦迷你组合音响.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +165,7 @@
 		D097DE41187F94B7005E63BE /* RSLottery */ = {
 			isa = PBXGroup;
 			children = (
+				D0CB2DBD1881822500D5D978 /* 奖品清单 */,
 				D097DE4A187F94B7005E63BE /* RSAppDelegate.h */,
 				D097DE4B187F94B7005E63BE /* RSAppDelegate.m */,
 				D097DE4D187F94B7005E63BE /* Main.storyboard */,
@@ -119,6 +173,8 @@
 				D097DE51187F94B7005E63BE /* RSViewController.m */,
 				D097DE53187F94B7005E63BE /* Images.xcassets */,
 				D097DE42187F94B7005E63BE /* Supporting Files */,
+				D0CB2DBA18815C0400D5D978 /* RSView.h */,
+				D0CB2DBB18815C0400D5D978 /* RSView.m */,
 			);
 			path = RSLottery;
 			sourceTree = "<group>";
@@ -150,6 +206,39 @@
 				D097DE63187F94B7005E63BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CB2DBD1881822500D5D978 /* 奖品清单 */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB2DBE1881822500D5D978 /* APPLE iPhone 5s.jpg */,
+				D0CB2DBF1881822500D5D978 /* BALLY 巴利 男式棕色牛皮斜挎包.jpg */,
+				D0CB2DC01881822500D5D978 /* BURBERRY 巴宝莉女表.jpg */,
+				D0CB2DC11881822500D5D978 /* COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg */,
+				D0CB2DC21881822500D5D978 /* COACH（蔻驰） 女士手提肩背包.jpg */,
+				D0CB2DC31881822500D5D978 /* ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg */,
+				D0CB2DC41881822500D5D978 /* ipad mini2.jpg */,
+				D0CB2DC51881822500D5D978 /* JBL iPhone5 音乐底座.jpg */,
+				D0CB2DC61881822500D5D978 /* LG空气净化器.jpg */,
+				D0CB2DC71881822500D5D978 /* TCL42英寸 超窄边智能液晶电视.jpg */,
+				D0CB2DC81881822500D5D978 /* WEEKENDER度假系列拉杆箱.jpg */,
+				D0CB2DC91881822500D5D978 /* 三星 Galaxy Note 3 N9006 3G手机.jpg */,
+				D0CB2DCA1881822500D5D978 /* 兰蔻 抗皱紧肤套装.jpg */,
+				D0CB2DCB1881822500D5D978 /* 奖品清单.xlsx */,
+				D0CB2DCC1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表女款.jpg */,
+				D0CB2DCD1881822500D5D978 /* 海鸥SeaGull自动机械情侣对表男款.jpg */,
+				D0CB2DCE1881822500D5D978 /* 联想20英寸一体电脑.jpg */,
+				D0CB2DCF1881822500D5D978 /* 艾美特（airmate）欧式快热电暖炉.jpg */,
+				D0CB2DD01881822500D5D978 /* 阿玛尼 ARMANI男表.jpg */,
+				D0CB2DD11881822500D5D978 /* 雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg */,
+				D0CB2DD21881822500D5D978 /* 雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg */,
+				D0CB2DD31881822500D5D978 /* 飞利浦5L电脑型多功能电压力煲.jpg */,
+				D0CB2DD41881822500D5D978 /* 飞利浦台式微型音响.jpg */,
+				D0CB2DD51881822500D5D978 /* 飞利浦多功能电饭煲.jpg */,
+				D0CB2DD61881822500D5D978 /* 飞利浦迷你组合音响.jpg */,
+			);
+			name = "奖品清单";
+			path = "../../../../Downloads/奖品清单";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +289,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = P.D.Q.;
 				TargetAttributes = {
+					D097DE37187F94B7005E63BE = {
+						DevelopmentTeam = H42C955D5K;
+					};
 					D097DE58187F94B7005E63BE = {
 						TestTargetID = D097DE37187F94B7005E63BE;
 					};
@@ -229,9 +321,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CB2DE41881822500D5D978 /* 奖品清单.xlsx in Resources */,
+				D0CB2DEB1881822500D5D978 /* 雅诗兰黛 Esteelauder限量完美彩妆礼盒套装.jpg in Resources */,
+				D0CB2DE11881822500D5D978 /* WEEKENDER度假系列拉杆箱.jpg in Resources */,
+				D0CB2DD81881822500D5D978 /* BALLY 巴利 男式棕色牛皮斜挎包.jpg in Resources */,
+				D0CB2DDF1881822500D5D978 /* LG空气净化器.jpg in Resources */,
+				D0CB2DE21881822500D5D978 /* 三星 Galaxy Note 3 N9006 3G手机.jpg in Resources */,
+				D0CB2DE51881822500D5D978 /* 海鸥SeaGull自动机械情侣对表女款.jpg in Resources */,
+				D0CB2DE61881822500D5D978 /* 海鸥SeaGull自动机械情侣对表男款.jpg in Resources */,
+				D0CB2DEF1881822500D5D978 /* 飞利浦迷你组合音响.jpg in Resources */,
+				D0CB2DEE1881822500D5D978 /* 飞利浦多功能电饭煲.jpg in Resources */,
+				D0CB2DDB1881822500D5D978 /* COACH（蔻驰） 女士手提肩背包.jpg in Resources */,
+				D0CB2DDD1881822500D5D978 /* ipad mini2.jpg in Resources */,
+				D0CB2DE31881822500D5D978 /* 兰蔻 抗皱紧肤套装.jpg in Resources */,
+				D0CB2DE01881822500D5D978 /* TCL42英寸 超窄边智能液晶电视.jpg in Resources */,
+				D0CB2DDC1881822500D5D978 /* ESTEE LAUDER雅诗兰黛 13圣诞限量折叠彩妆盘.jpg in Resources */,
+				D0CB2DDE1881822500D5D978 /* JBL iPhone5 音乐底座.jpg in Resources */,
+				D0CB2DD91881822500D5D978 /* BURBERRY 巴宝莉女表.jpg in Resources */,
+				D0CB2DE91881822500D5D978 /* 阿玛尼 ARMANI男表.jpg in Resources */,
+				D0CB2DE81881822500D5D978 /* 艾美特（airmate）欧式快热电暖炉.jpg in Resources */,
 				D097DE54187F94B7005E63BE /* Images.xcassets in Resources */,
 				D097DE46187F94B7005E63BE /* InfoPlist.strings in Resources */,
+				D0CB2DE71881822500D5D978 /* 联想20英寸一体电脑.jpg in Resources */,
 				D097DE4F187F94B7005E63BE /* Main.storyboard in Resources */,
+				D0CB2DDA1881822500D5D978 /* COACH 蔻驰 女士玫红色皮革小号手提肩背斜挎包.jpg in Resources */,
+				D0CB2DEC1881822500D5D978 /* 飞利浦5L电脑型多功能电压力煲.jpg in Resources */,
+				D0CB2DED1881822500D5D978 /* 飞利浦台式微型音响.jpg in Resources */,
+				D0CB2DEA1881822500D5D978 /* 雅诗兰黛 Esteelauder圣诞快乐派对限量完美彩妆礼盒套装.jpg in Resources */,
+				D0CB2DD71881822500D5D978 /* APPLE iPhone 5s.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +370,7 @@
 				D097DE48187F94B7005E63BE /* main.m in Sources */,
 				D097DE4C187F94B7005E63BE /* RSAppDelegate.m in Sources */,
 				D097DE52187F94B7005E63BE /* RSViewController.m in Sources */,
+				D0CB2DBC18815C0400D5D978 /* RSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,10 +499,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
 				INFOPLIST_FILE = "RSLottery/RSLottery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,10 +515,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSLottery/RSLottery-Prefix.pch";
 				INFOPLIST_FILE = "RSLottery/RSLottery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +587,7 @@
 				D097DE6C187F94B7005E63BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D097DE6D187F94B7005E63BE /* Build configuration list for PBXNativeTarget "RSLotteryTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +596,7 @@
 				D097DE6F187F94B7005E63BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
