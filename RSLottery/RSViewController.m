@@ -81,7 +81,7 @@ static const int kNumberOfColumns = 12;
             self.selectedView.view.layer.anchorPoint = CGPointMake(0, .5);
             self.selectedView.view.center = CGPointMake(self.selectedView.view.center.x - self.selectedView.view.bounds.size.width / 2.0f, self.selectedView.view.center.y);
             
-            [UIView animateWithDuration:2 animations:^{
+            [UIView animateWithDuration:.8 animations:^{
                 CATransform3D transform = CATransform3DMakeRotation(3.141f / 2.0f, 0.0f, -1.0f, 0.0f);
                 transform.m34 = 0.001f;
                 transform.m14 = -0.0015f;
@@ -216,7 +216,7 @@ static const int kNumberOfColumns = 12;
         for (int column = 0; column < kNumberOfColumns; column++) {
             RSView *view = [[RSView alloc] initWithFrame:CGRectMake(column * itemSize.width, row * itemSize.height, itemSize.width, itemSize.height)];
             view.tag = 0xcafe + kNumberOfColumns * row + column;
-            view.label.text = view.tag % 2 == 1 ? @"奖" : @"抽";
+            view.label.text = [NSString stringWithFormat:@"%d", kNumberOfColumns * row + column + 1];
             view.view.backgroundColor = [UIColor colorWithRed:(arc4random() % 257) / 256. green:(arc4random() % 257) / 256. blue:(arc4random() % 257) / 256. alpha:1];
             [self.view addSubview:view];
         }
