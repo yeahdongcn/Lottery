@@ -195,6 +195,8 @@ static const int kNumberOfColumns = 12;
                      @"飞利浦5L电脑型多功能电压力煲",
                      @"飞利浦5L电脑型多功能电压力煲",
                      nil];
+        
+        NSAssert(self.list.count == kNumberOfColumns * kNumberOfRows, @"Make sure items and views are match.");
     }
     return self;
 }
